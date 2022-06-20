@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+      <div class="imgSidebar">
+        <img src="bg.jpg" />
+      </div>
+      <div class="contentBx">
+        <h5 class="logoText">My_Portifolio</h5>
+        <div>
+          <h4><span>Hello</span> I'm</h4>
+          <h2>Matheus Lippe</h2>
+          <h4>I'm a Front End Web Developer</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            corrupti? Hic autem saepe, eaque, id enim nostrum provident totam
+            magni modi natus laboriosam aliquam, deserunt excepturi molestiae
+            earum molestias laborum! Laborum eum officiis consequatur optio
+            dolorum mollitia officia. Nesciunt earum necessitatibus distinctio
+            autem, soluta nisi. Soluta non quasi facilis sunt eum pariatur eius
+            vel repellendus? Similique ducimus perferendis corporis illum.
+          </p>
+          <a href="#" class="btn">About Me</a>
+        </div>
+        <ul class="sci">
+          <li>
+            <a href="#"><img src="facebook.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="twitter.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="instagram.png" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="sidebar">
+      <ul class="menu">
+        <li><a href="#" data-text="Home">Home</a></li>
+        <li><a href="#" data-text="About">About</a></li>
+        <li><a href="#" data-text="Services">Services</a></li>
+        <li><a href="#" data-text="Work">Work</a></li>
+        <li><a href="#" data-text="Contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        const menuToggle = document.querySelector('.toggle')
+        const sidebar = document.querySelector('.sidebar')
+
+        menuToggle.classList.toggle('active')
+        sidebar.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
