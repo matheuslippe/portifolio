@@ -20,15 +20,11 @@
           <h2>Matheus Lippe</h2>
           <h4>I'm a Front End Web Developer</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
-            corrupti? Hic autem saepe, eaque, id enim nostrum provident totam
-            magni modi natus laboriosam aliquam, deserunt excepturi molestiae
-            earum molestias laborum! Laborum eum officiis consequatur optio
-            dolorum mollitia officia. Nesciunt earum necessitatibus distinctio
-            autem, soluta nisi. Soluta non quasi facilis sunt eum pariatur eius
-            vel repellendus? Similique ducimus perferendis corporis illum.
+            I started programming when I was 20 years old, starting with html and css.
+            <br />I tried to improve my knowledge in this area with some courses
+            on the internet.
           </p>
-          <a href="#" class="btn">About Me</a>
+          <a href="#about" class="btn">About Me</a>
         </div>
         <ul class="sci">
           <li>
@@ -44,13 +40,42 @@
       </div>
     </section>
 
+    <section class="about" id="about">
+      <div class="title white">
+        <h2>About Me</h2>
+        <p>As I was saying</p>
+      </div>
+      <div class="content">
+        <div class="textBx">
+          <p>
+            In 2016 I started programming, always searching the internet for
+            courses, at that time I focused on html and css programming. A few
+            years later I joined the Systems Analysis and Development Faculty,
+            where I had more contact with programming, but I was not satisfied
+            with the course and I dropped out of that faculty.<br /><br />
+            At the beginning of 2022 I looked for a new college and started studying Software Engineering, in the meantime I had a lot of contact with the technology area, both in support and in development.
+          </p>
+        </div>
+        <div class="imgBx">
+          <img src="bg1.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="title">
+        <h2>My Projects</h2>
+        <p>To know a little more about my projects, enter my profile on <a href="https://github.com/matheuslippe" target="_blank">Github</a></p>
+      </div>
+    </section>
+
     <div class="sidebar">
       <ul class="menu">
-        <li><a href="#" data-text="Home">Home</a></li>
-        <li><a href="#" data-text="About">About</a></li>
-        <li><a href="#" data-text="Services">Services</a></li>
-        <li><a href="#" data-text="Work">Work</a></li>
-        <li><a href="#" data-text="Contact">Contact</a></li>
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+        <li><a href="#" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#" onclick="toggleMenu();">Contact</a></li>
       </ul>
     </div>
 
