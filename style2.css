@@ -172,7 +172,7 @@ a .btn:hover {
 }
 
 .sci li {
-  margin-right: 10px;
+  margin-right: 7px;
   list-style: none;
 }
 
@@ -183,6 +183,7 @@ a .btn:hover {
 
 .sci li img:hover {
   opacity: 1;
+  transform: scale(0.7);
 }
 
 .title {
