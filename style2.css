@@ -211,8 +211,7 @@ a .btn:hover {
 
 .title p a:hover {
   letter-spacing: 1px;
-  text-shadow: 0 0 10px #00bcd4,
-  0 0 40px #00bcd4;
+  text-shadow: 0 0 10px #00bcd4, 0 0 40px #00bcd4;
 }
 
 .title h2::before {
@@ -260,7 +259,4 @@ a .btn:hover {
 
 .about .content .imgBx img {
   max-width: 100%;
-}
-
-.about .projects h2 {
 }
